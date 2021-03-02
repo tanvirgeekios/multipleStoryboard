@@ -13,6 +13,8 @@
 		EB4AE0FD25EDDFCD0068FA74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB4AE0FB25EDDFCD0068FA74 /* Main.storyboard */; };
 		EB4AE0FF25EDDFCE0068FA74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB4AE0FE25EDDFCE0068FA74 /* Assets.xcassets */; };
 		EB4AE10225EDDFCE0068FA74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB4AE10025EDDFCE0068FA74 /* LaunchScreen.storyboard */; };
+		EB4AE10C25EDE7C80068FA74 /* Auth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB4AE10B25EDE7C80068FA74 /* Auth.storyboard */; };
+		EB4AE10F25EDE8690068FA74 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4AE10E25EDE8690068FA74 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		EB4AE0FE25EDDFCE0068FA74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB4AE10125EDDFCE0068FA74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB4AE10325EDDFCE0068FA74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB4AE10B25EDE7C80068FA74 /* Auth.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Auth.storyboard; sourceTree = "<group>"; };
+		EB4AE10E25EDE8690068FA74 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		EB4AE0F425EDDFCD0068FA74 /* MultipleStoryboard */ = {
 			isa = PBXGroup;
 			children = (
+				EB4AE10A25EDE7AB0068FA74 /* Auth */,
 				EB4AE0F525EDDFCD0068FA74 /* AppDelegate.swift */,
 				EB4AE0F725EDDFCD0068FA74 /* SceneDelegate.swift */,
 				EB4AE0F925EDDFCD0068FA74 /* ViewController.swift */,
@@ -65,6 +70,15 @@
 				EB4AE10325EDDFCE0068FA74 /* Info.plist */,
 			);
 			path = MultipleStoryboard;
+			sourceTree = "<group>";
+		};
+		EB4AE10A25EDE7AB0068FA74 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				EB4AE10B25EDE7C80068FA74 /* Auth.storyboard */,
+				EB4AE10E25EDE8690068FA74 /* LoginViewController.swift */,
+			);
+			path = Auth;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +138,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB4AE10C25EDE7C80068FA74 /* Auth.storyboard in Resources */,
 				EB4AE10225EDDFCE0068FA74 /* LaunchScreen.storyboard in Resources */,
 				EB4AE0FF25EDDFCE0068FA74 /* Assets.xcassets in Resources */,
 				EB4AE0FD25EDDFCD0068FA74 /* Main.storyboard in Resources */,
@@ -137,6 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB4AE10F25EDE8690068FA74 /* LoginViewController.swift in Sources */,
 				EB4AE0FA25EDDFCD0068FA74 /* ViewController.swift in Sources */,
 				EB4AE0F625EDDFCD0068FA74 /* AppDelegate.swift in Sources */,
 				EB4AE0F825EDDFCD0068FA74 /* SceneDelegate.swift in Sources */,
